@@ -1,0 +1,15 @@
+Primitive:
+int
+double
+long
+float
+short
+boolean
+char
+byte
+
+Non-Primitive: 
+String
+arrays
+interface
+class
