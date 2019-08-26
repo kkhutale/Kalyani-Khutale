@@ -1,0 +1,29 @@
+1. what are the Primitive variables and non-primitive or reference variables give some examples:
+    primitive variable contains values ,they are of primitive types like int, double, short, float....
+    non-primitive variable contains memory address like Class,string, object, array...
+
+2. Why objects are refered as reference type:
+    Because objects refer to the memory location in the heap and not the real values.
+
+
+3.Trace the output:
+
+a. Constructor called
+   Area is 2000
+
+
+b.Constructor called
+  Constructor called
+  Not Equal
+
+
+c.Constructor called
+  Constructor called
+  Not Equal
+
+
+e.Constructor called
+  Constructor called
+  Equal
+
+
