@@ -1,0 +1,41 @@
+session 8
+--------
+
+1. Create immutable class such that it whenever there is change made to the datamember the using some setter the value is changed by creating a new instance and setting the new value to it.
+Make sure the class data members are initialized once only using constructor or block etc
+
+Hint : Create a class with private datamember with parametric contructor such that it has getter and setter method in setter method it creates a new instance and the passed value is set to it
+
+
+2.
+a. Trace the output
+
+String str1 = "Manish";
+String str = new String("Manish");
+if(str1 == str){
+sysout("Strings are same");
+}else{
+sysout("Strings are not same");
+}
+
+b. 
+String s = new String("Test").intern();
+String s1 = new String("Test");
+
+if(s == s1){
+sysout("We are equal")
+}else{
+sysout("we are not equal")
+}
+
+
+c. 
+String s1 = "Test";
+String s2 = new String("Test");
+if(s1.equals(s2))
+{
+sysout("Strings are equal")
+}else{
+sysout("Strings are not equal")
+}
+
