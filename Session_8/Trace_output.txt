@@ -1,0 +1,44 @@
+
+
+2.
+a. Trace the output
+
+String str1 = "Manish";
+String str = new String("Manish");
+if(str1 == str){
+sysout("Strings are same");
+}else{
+sysout("Strings are not same");
+}
+
+==> Strings are not same
+
+------------------------------------------------------------------------------------------------------------------------------
+
+
+b. 
+String s = new String("Test").intern();
+String s1 = new String("Test");
+
+if(s == s1){
+sysout("We are equal")
+}else{
+sysout("we are not equal")
+}
+
+==> We are equal
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+c. 
+String s1 = "Test";
+String s2 = new String("Test");
+if(s1.equals(s2))
+{
+sysout("Strings are equal")
+}else{
+sysout("Strings are not equal")
+}
+==> Strings are equal
+
