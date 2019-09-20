@@ -1,0 +1,12 @@
+4. Trace the output
+
+Rectangle r1 = new Rectangle(10,10);
+Rectangle r2 = new Rectangle(10,10);
+ 
+if(r1.equals(r2)){
+sysout("Equal")
+}else{
+sysout("Not equal")
+}
+
+output: equal, because r1.equals(r2) checks for value and not for reference.
