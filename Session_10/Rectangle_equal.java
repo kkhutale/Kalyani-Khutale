@@ -56,6 +56,20 @@ public class Rectangle_equal {
         }
         else
             System.out.println("Not equal");
+            
+            
+         
+            System.out.println("\n\nCustom Exception part=============================================================\n");
+                try {
+                    int area = 3;
+                    throw new CalculateAreaNotSupported(area);
+                }
+                catch (CalculateAreaNotSupported ex){
+                    System.out.println("inside CalculateAreaNotSupported catch");
+                }
+                catch (Exception ex){
+                    System.out.println("Inside generic catch");
+                }
 
         }
     }
