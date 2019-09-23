@@ -1,3 +1,5 @@
+
+//Custom Exception
 package Session_10;
 
 public class CalculateAreaNotSupported extends Exception {
