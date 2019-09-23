@@ -1,0 +1,23 @@
+3. Trace the output 
+Abstract Class Shape{
+calArea();
+}
+Class Rectangle extends Shape{
+calArea(){
+}
+display(){
+}
+}
+Class Circle extends Shape{
+calArea(){
+}
+display(){
+}
+}
+
+In the main method 
+Shape s = new Rectangle();
+((Circle)s).display()
+
+output is : Class cast exception will occur , child class is not compatible with anotherchild class. We can explicitly typecast 
+only with parent-child relation. 
